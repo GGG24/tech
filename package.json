@@ -5,12 +5,11 @@
   "homepage": "https://ggg24.github.io/tech/",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
-    "export": "next export",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "deploy": "next build && touch out/.nojekyll"
+    "deploy": "next build && next export && touch out/.nojekyll"
   },
   "dependencies": {
     "next": "latest",
