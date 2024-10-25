@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/your-repo-name',
-  assetPrefix: '/your-repo-name/',
+  basePath: '/tech',
+  assetPrefix: '/tech/',
   typescript: {
     ignoreBuildErrors: false,
   },
