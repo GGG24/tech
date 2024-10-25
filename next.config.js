@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/css-problems-demo',
+  basePath: '/your-repo-name',
+  assetPrefix: '/your-repo-name/',
   typescript: {
     ignoreBuildErrors: false,
   },
